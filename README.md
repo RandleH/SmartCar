@@ -1,3 +1,2 @@
 # C-Smart-Car (Project based on IAR.IDE 8.32 )
-![image](https://github.com/RandleH/C-Smart-Car/tree/master/Materials/SmartCar_Profile1.jpg)
-
+![image](https://raw.githubusercontent.com/RandleH/C-Smart-Car/master/Materials/SmartCar_Profile1.jpg)
