@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>3559485830</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\Libraries\Startup\DeviceSupport\IAR-ARM\startup_MK66F18.s</file>
+            <file>$PROJ_DIR$\..\Libraries\Tools\inc\mathematics.h</file>
+            <file>$PROJ_DIR$\..\Users\inc\MK60_port.h</file>
+            <file>$PROJ_DIR$\..\Users\src\nxp_contest.c</file>
+            <file>$PROJ_DIR$\..\Users\inc\interrupt.h</file>
+            <file>$PROJ_DIR$\..\Libraries\Tools\inc\img_canny.h</file>
+            <file>$PROJ_DIR$\..\Libraries\Tools\src\image.c</file>
+            <file>$PROJ_DIR$\..\Users\src\information.c</file>
+            <file>$PROJ_DIR$\..\Users\inc\headfiles.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\mathematics.pbi</file>
+            <file>$PROJ_DIR$\..\Libraries\Tools\inc\img_gussian.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\spi.pbi</file>
+            <file>$PROJ_DIR$\..\Libraries\Startup\DeviceSupport\system_MK66.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_MK66.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\..\Libraries\Startup\DeviceSupport\system_MK66.c</file>
+            <file>$PROJ_DIR$\..\Libraries\Tools\inc\fourier.h</file>
+            <file>$PROJ_DIR$\..\Libraries\Tools\src\fourier.c</file>
+            <file>$PROJ_DIR$\..\Libraries\Tools\src\mathematics.c</file>
+            <file>$PROJ_DIR$\..\Users\inc\common.h</file>
+            <file>$PROJ_DIR$\..\Users\src\main.cpp</file>
+            <file>$PROJ_DIR$\..\Libraries\Tools\inc\img_stat.h</file>
+            <file>$PROJ_DIR$\..\Users\src\interrupt.c</file>
+            <file>$PROJ_DIR$\..\Libraries\Tools\inc\image.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\ST7735.o</file>
+            <file>$PROJ_DIR$\..\Libraries\Tools\inc\img_filter.h</file>
+            <file>$PROJ_DIR$\..\Libraries\Tools\inc\img_bin.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\..\Libraries\Tools\tft_font.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\interrupt.o</file>
+            <file>$PROJ_DIR$\..\Users\inc\nxp_contest.h</file>
+            <file>$PROJ_DIR$\..\Users\inc\information.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MT9V032.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\Debug\List\Randle_H.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\interrupt.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\fourier.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\nxp_contest.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\information.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\image.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\MT9V032.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\image.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_MK66.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cmdesk_c_smartcar.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\c_smartcar.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\TD8320MG.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\port.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\information.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\MOTOR.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\Randle_H.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\ST7735.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\spi.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\fourier.__cstat.et</file>
+            <file>$PROJ_DIR$\..\Libraries\Devices\inc\MOTOR.h</file>
+            <file>$PROJ_DIR$\..\Libraries\Devices\inc\NRF24L01.h</file>
+            <file>$PROJ_DIR$\..\Libraries\Devices\inc\ST7735.h</file>
+            <file>$PROJ_DIR$\..\Libraries\Drivers\inc\c_smartcar.h</file>
+            <file>$PROJ_DIR$\..\Libraries\Devices\src\MT9V032.c</file>
+            <file>$PROJ_DIR$\..\Libraries\Drivers\inc\cmdesk_c_smartcar.h</file>
+            <file>$PROJ_DIR$\..\Libraries\Drivers\inc\port.h</file>
+            <file>$PROJ_DIR$\..\Libraries\Drivers\inc\systick.h</file>
+            <file>$PROJ_DIR$\..\Libraries\Drivers\src\port.c</file>
+            <file>$PROJ_DIR$\..\Libraries\Drivers\inc\spi.h</file>
+            <file>$PROJ_DIR$\..\Libraries\Drivers\src\cmdesk_c_smartcar.c</file>
+            <file>$PROJ_DIR$\..\Libraries\Startup\CoreSupport\core_cm4.h</file>
+            <file>$PROJ_DIR$\..\Libraries\Devices\inc\MT9V032.h</file>
+            <file>$PROJ_DIR$\..\Libraries\Startup\CoreSupport\core_cm4_simd.h</file>
+            <file>$PROJ_DIR$\..\Libraries\Drivers\inc\uart.h</file>
+            <file>$PROJ_DIR$\..\Libraries\Startup\DeviceSupport\MK66F18.h</file>
+            <file>$PROJ_DIR$\..\Libraries\Devices\inc\TD8320MG.h</file>
+            <file>$PROJ_DIR$\..\Libraries\Devices\src\MOTOR.c</file>
+            <file>$PROJ_DIR$\..\Libraries\Devices\src\NRF24L01.c</file>
+            <file>$PROJ_DIR$\..\Libraries\Devices\src\ST7735.c</file>
+            <file>$PROJ_DIR$\..\Libraries\Devices\src\TD8320MG.c</file>
+            <file>$PROJ_DIR$\..\Libraries\Drivers\src\c_smartcar.c</file>
+            <file>$PROJ_DIR$\..\Libraries\Drivers\src\systick.c</file>
+            <file>$PROJ_DIR$\..\Libraries\Startup\CoreSupport\core_cmFunc.h</file>
+            <file>$PROJ_DIR$\..\Libraries\Startup\CoreSupport\core_cmInstr.h</file>
+            <file>$PROJ_DIR$\..\Libraries\Drivers\src\spi.c</file>
+            <file>$PROJ_DIR$\..\Libraries\Drivers\src\uart.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\nxp_contest.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\mathematics.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\systick.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\c_smartcar.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\NRF24L01.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_MK66F18.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\Randle_H.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\NRF24L01.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\information.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\TD8320MG.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\systick.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\Randle_H_K66库 - 0124 - 初试赛道特征提取\Libraries\Devices\src\ST7735.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\cmdesk_c_smartcar.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\port.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\MT9V032.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\cmdesk_c_smartcar.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\NRF24L01.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\c_smartcar.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\spi.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\port.o</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\MOTOR.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\NXP\MK66xX1M_18.icf</file>
+            <file>$PROJ_DIR$\Debug\Obj\systick.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\interrupt.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\ST7735.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_MK66.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\mathematics.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\TD8320MG.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\MOTOR.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\nxp_contest.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\image.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\fourier.o</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 98 36</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\Startup\DeviceSupport\IAR-ARM\startup_MK66F18.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 96</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Users\src\nxp_contest.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 133</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 8 61 59 118 14 97 40 92 51 78 74 116 87 119 34 86 76 12 19 69 4 70 66 23 124 47 135 27 5 75 26 10 25 21 35 33 68 64 1 31 65 63 79 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 59 68 1 135 61 23 69 75 97 119 34 8 78 70 31 63 92 40 12 87 118 25 51 19 4 66 30 65 64 79 16 14 74 76 26 35 33 116 86 124 5 10 21 47 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\Tools\src\image.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 134</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 23 8 61 59 118 14 97 40 92 51 78 74 116 87 119 34 86 76 12 19 69 4 70 66 124 47 135 27 5 75 26 10 25 21 35 33 68 64 1 30 31 65 63 79 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 75 21 47 118 97 69 59 5 61 68 23 78 27 8 124 10 70 31 63 1 92 40 12 76 19 66 135 26 25 51 4 30 65 64 79 16 14 74 87 119 34 116 86 35 33</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Users\src\information.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 103</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31 8 61 59 118 14 97 40 92 51 78 74 116 87 119 34 86 76 12 19 69 4 70 66 23 124 47 135 27 5 75 26 10 25 21 35 33 68 64 1 30 65 63 79 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 65 8 118 59 19 119 1 66 79 135 51 4 30 64 16 14 74 86 25 92 61 78 69 70 68 31 75 63 23 97 40 12 116 26 35 33 124 87 76 34 5 10 21 47 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\Startup\DeviceSupport\system_MK66.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 13</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 129</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 116 59 118 14 97 40 19 78 74 87 119 34 86 76 12 2</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 118 74 2 40 86 119 34 19 59 97 116 14 78 12 87 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\Tools\src\fourier.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 136</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 38</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 16 8 61 59 118 14 97 40 92 51 78 74 116 87 119 34 86 76 12 19 69 4 70 66 23 124 47 135 27 5 75 26 10 25 21 35 33 68 64 1 30 31 65 63 79</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 63 40 118 70 92 12 19 78 31 1 59 119 5 124 61 69 68 75 23 97 86 8 21 51 4 66 30 65 64 79 16 14 74 116 10 47 27 87 76 34 135 26 25 35 33</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\Tools\src\mathematics.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 91</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 130</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 1 124 59 118 14 97 40 47 135 92 27</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 59 135 40 118 124 47 97 1 14 92 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Users\src\main.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 123</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 100</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 8 61 59 118 14 97 40 92 51 78 74 116 87 119 34 86 76 12 19 69 4 70 66 23 124 47 135 27 5 75 26 10 25 21 35 33 68 64 1 30 31 65 63 79 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 97 75 59 69 92 61 68 23 116 26 78 70 31 63 1 40 12 8 35 33 64 135 51 19 4 66 30 65 79 16 118 14 74 86 119 25 124 87 76 34 5 10 21 47 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Users\src\interrupt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 29</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 37</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 127</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 4 8 61 59 118 14 97 40 92 51 78 74 116 87 119 34 86 76 12 19 69 70 66 23 124 47 135 27 5 75 26 10 25 21 35 33 68 64 1 30 31 65 63 79 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78 79 59 66 92 19 65 118 116 26 8 51 4 30 64 16 14 74 75 35 33 135 61 69 70 68 31 63 23 1 97 40 12 86 119 25 124 87 76 34 5 10 21 47 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\Devices\src\MT9V032.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 32</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 111</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75 8 61 59 118 14 97 40 92 51 78 74 116 87 119 34 86 76 12 19 69 4 70 66 23 124 47 135 27 5 26 10 25 21 35 33 68 64 1 30 31 65 63 79 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 25 51 16 14 118 59 30 86 4 64 74 119 8 19 66 65 79 135 35 33 61 78 69 70 68 31 75 63 23 1 92 97 40 12 116 26 124 87 76 34 5 10 21 47 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\Drivers\src\port.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 120</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 110</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 54</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69 19 78 74 116 59 118 14 97 40 87 119 34 86 76 12</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78 116 14 19 74 86 118 119 34 69 12 87 76 59 97 40</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\Drivers\src\cmdesk_c_smartcar.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 112</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 109</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68 64 8 61 59 118 14 97 40 92 51 78 74 116 87 119 34 86 76 12 19 69 4 70 66 23 124 47 135 27 5 75 26 10 25 21 35 33 1 30 31 65 63 79 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 8 65 59 118 78 19 92 66 79 26 51 4 30 64 16 14 74 76 23 75 35 33 124 1 61 69 70 68 31 63 97 40 12 87 119 34 135 25 116 86 5 10 21 47 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\Devices\src\MOTOR.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 132</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 122</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 56</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63 8 61 59 118 14 97 40 92 51 78 74 116 87 119 34 86 76 12 19 69 4 70 66 23 124 47 135 27 5 75 26 10 25 21 35 33 68 64 1 30 31 65 79 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 63 116 40 70 92 12 26 78 31 1 59 61 69 68 75 23 97 8 35 33 64 135 51 19 4 66 30 65 79 16 118 14 74 86 119 25 124 87 76 34 5 10 21 47 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\Devices\src\NRF24L01.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 102</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 113</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 95</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 64 8 61 59 118 14 97 40 92 51 78 74 116 87 119 34 86 76 12 19 69 4 70 66 23 124 47 135 27 5 75 26 10 25 21 35 33 68 1 30 31 65 63 79 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30 118 51 16 14 8 4 64 74 78 5 19 66 65 79 76 23 21 135 61 69 70 68 31 75 63 1 59 92 97 40 12 87 119 34 124 10 47 27 116 86 26 25 35 33</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\Devices\src\ST7735.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 24</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 128</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 65 8 61 59 118 14 97 40 92 51 78 74 116 87 119 34 86 76 12 19 69 4 70 66 23 124 47 135 27 5 75 26 10 25 21 35 33 68 64 1 30 31 63 79 16 28</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64 75 8 4 118 74 23 35 124 51 30 16 14 76 19 33 61 66 65 79 78 26 92 59 105 28 69 70 68 31 63 1 97 40 12 87 119 34 135 25 116 86 5 10 21 47 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\Devices\src\TD8320MG.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 131</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 104</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 79 8 61 59 118 14 97 40 92 51 78 74 116 87 119 34 86 76 12 19 69 4 70 66 23 124 47 135 27 5 75 26 10 25 21 35 33 68 64 1 30 31 65 63 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 59 23 35 64 31 78 1 75 8 70 63 92 40 12 76 19 33 61 69 68 97 26 51 4 66 30 65 79 16 118 14 74 87 119 34 135 25 116 86 124 5 10 21 47 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\Drivers\src\c_smartcar.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 114</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 94</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 8 61 59 118 14 97 40 92 51 78 74 116 87 119 34 86 76 12 19 69 4 70 23 124 47 135 27 5 75 26 10 25 21 35 33 68 64 1 30 31 65 63 79 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 75 64 59 4 118 74 119 92 51 30 16 14 19 26 8 66 65 79 86 35 33 135 23 61 78 69 70 68 31 63 1 97 40 12 116 25 124 87 76 34 5 10 21 47 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\Drivers\src\systick.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 93</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 107</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 126</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 70 19 78 74 116 59 118 14 97 40 87 119 34 86 76 12</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78 116 14 19 74 86 118 119 34 70 12 87 76 59 97 40</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\Drivers\src\spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 117</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 60</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 11</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 72 78 74 116 59 118 14 97 40 87 119 34 86 76 12</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74 116 14 78 12 86 118 119 34 72 87 76 59 97 40</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\Drivers\src\uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 99</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 77 78 74 116 59 118 14 97 40 87 119 34 86 76 12 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 87 59 116 19 12 40 78 74 76 97 119 77 86 118 14 34</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\Randle_H.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 36</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 125 50 49 136 42 55 29 53 91 132 32 102 90 120 117 24 96 46 93 52 48 101 115 121 106</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

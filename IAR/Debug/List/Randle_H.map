@@ -1,0 +1,553 @@
+###############################################################################
+#
+# IAR ELF Linker V8.32.1.169/W32 for ARM                  26/Jan/2020  16:05:51
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\asus\Documents\嵌入式\NXP\MK66FX1M0\Randle_H_K66库 - 0125
+#        - 初试赛道特征提取\IAR\Debug\Exe\Randle_H.out
+#    Map file     =  
+#        C:\Users\asus\Documents\嵌入式\NXP\MK66FX1M0\Randle_H_K66库 - 0125
+#        - 初试赛道特征提取\IAR\Debug\List\Randle_H.map
+#    Command line =  
+#        -f C:\Users\asus\AppData\Local\Temp\EW8BE9.tmp
+#        ("C:\Users\asus\Documents\嵌入式\NXP\MK66FX1M0\Randle_H_K66库 -
+#        0125 - 初试赛道特征提取\IAR\Debug\Obj\c_smartcar.o"
+#        "C:\Users\asus\Documents\嵌入式\NXP\MK66FX1M0\Randle_H_K66库 -
+#        0125 - 初试赛道特征提取\IAR\Debug\Obj\cmdesk_c_smartcar.o"
+#        "C:\Users\asus\Documents\嵌入式\NXP\MK66FX1M0\Randle_H_K66库 -
+#        0125 - 初试赛道特征提取\IAR\Debug\Obj\fourier.o"
+#        "C:\Users\asus\Documents\嵌入式\NXP\MK66FX1M0\Randle_H_K66库 -
+#        0125 - 初试赛道特征提取\IAR\Debug\Obj\image.o"
+#        "C:\Users\asus\Documents\嵌入式\NXP\MK66FX1M0\Randle_H_K66库 -
+#        0125 - 初试赛道特征提取\IAR\Debug\Obj\information.o"
+#        "C:\Users\asus\Documents\嵌入式\NXP\MK66FX1M0\Randle_H_K66库 -
+#        0125 - 初试赛道特征提取\IAR\Debug\Obj\interrupt.o"
+#        "C:\Users\asus\Documents\嵌入式\NXP\MK66FX1M0\Randle_H_K66库 -
+#        0125 - 初试赛道特征提取\IAR\Debug\Obj\main.o"
+#        "C:\Users\asus\Documents\嵌入式\NXP\MK66FX1M0\Randle_H_K66库 -
+#        0125 - 初试赛道特征提取\IAR\Debug\Obj\mathematics.o"
+#        "C:\Users\asus\Documents\嵌入式\NXP\MK66FX1M0\Randle_H_K66库 -
+#        0125 - 初试赛道特征提取\IAR\Debug\Obj\MOTOR.o"
+#        "C:\Users\asus\Documents\嵌入式\NXP\MK66FX1M0\Randle_H_K66库 -
+#        0125 - 初试赛道特征提取\IAR\Debug\Obj\MT9V032.o"
+#        "C:\Users\asus\Documents\嵌入式\NXP\MK66FX1M0\Randle_H_K66库 -
+#        0125 - 初试赛道特征提取\IAR\Debug\Obj\NRF24L01.o"
+#        "C:\Users\asus\Documents\嵌入式\NXP\MK66FX1M0\Randle_H_K66库 -
+#        0125 - 初试赛道特征提取\IAR\Debug\Obj\nxp_contest.o"
+#        "C:\Users\asus\Documents\嵌入式\NXP\MK66FX1M0\Randle_H_K66库 -
+#        0125 - 初试赛道特征提取\IAR\Debug\Obj\port.o"
+#        "C:\Users\asus\Documents\嵌入式\NXP\MK66FX1M0\Randle_H_K66库 -
+#        0125 - 初试赛道特征提取\IAR\Debug\Obj\spi.o"
+#        "C:\Users\asus\Documents\嵌入式\NXP\MK66FX1M0\Randle_H_K66库 -
+#        0125 - 初试赛道特征提取\IAR\Debug\Obj\ST7735.o"
+#        "C:\Users\asus\Documents\嵌入式\NXP\MK66FX1M0\Randle_H_K66库 -
+#        0125 - 初试赛道特征提取\IAR\Debug\Obj\startup_MK66F18.o"
+#        "C:\Users\asus\Documents\嵌入式\NXP\MK66FX1M0\Randle_H_K66库 -
+#        0125 - 初试赛道特征提取\IAR\Debug\Obj\system_MK66.o"
+#        "C:\Users\asus\Documents\嵌入式\NXP\MK66FX1M0\Randle_H_K66库 -
+#        0125 - 初试赛道特征提取\IAR\Debug\Obj\systick.o"
+#        "C:\Users\asus\Documents\嵌入式\NXP\MK66FX1M0\Randle_H_K66库 -
+#        0125 - 初试赛道特征提取\IAR\Debug\Obj\TD8320MG.o"
+#        "C:\Users\asus\Documents\嵌入式\NXP\MK66FX1M0\Randle_H_K66库 -
+#        0125 - 初试赛道特征提取\IAR\Debug\Obj\uart.o"
+#        --no_out_extension -o
+#        "C:\Users\asus\Documents\嵌入式\NXP\MK66FX1M0\Randle_H_K66库 -
+#        0125 - 初试赛道特征提取\IAR\Debug\Exe\Randle_H.out" --map
+#        "C:\Users\asus\Documents\嵌入式\NXP\MK66FX1M0\Randle_H_K66库 -
+#        0125 - 初试赛道特征提取\IAR\Debug\List\Randle_H.map" --config
+#        "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.2\arm\config\linker\NXP\MK66xX1M_18.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x0 { ro section .intvec };
+"P1":  place in [from 0x400 to 0x40f] { section FlashConfig };
+"P2":  place in [from 0x0 to 0x3ff] |
+                [from 0x410 to 0xf'ffff] |
+                [from 0x1000'0000 to 0x1003'ffff] { ro };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 16K, alignment = 8 { };
+"P3":  place in [from 0x1fff'0000 to 0x1fff'ffff] |
+                [from 0x2000'0000 to 0x2002'ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+No sections matched the following patterns:
+
+  section .flex_ram  in "P4"
+
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                       0x400
+  .intvec            ro code          0x0   0x400  startup_MK66F18.o [1]
+                                  - 0x400   0x400
+
+"P1":                                        0x10
+  FlashConfig        ro code        0x400    0x10  startup_MK66F18.o [1]
+                                  - 0x410    0x10
+
+"P2":                                      0x4514
+  .text              ro code        0x410  0x165e  image.o [1]
+  .text              ro code       0x1a6e    0x3a  zero_init3.o [4]
+  .text              ro code       0x1aa8    0x66  ABImemset.o [4]
+  .text              ro code       0x1b0e     0x2  startup_MK66F18.o [1]
+  .text              ro code       0x1b10     0x6  ABImemclr4.o [4]
+  .text              ro code       0x1b16     0x2  startup_MK66F18.o [1]
+  .text              ro code       0x1b18    0x48  FltToDbl.o [3]
+  .text              ro code       0x1b60   0x1a2  DblMul.o [3]
+  .text              ro code       0x1d02     0x2  startup_MK66F18.o [1]
+  .text              ro code       0x1d04   0x246  DblDiv.o [3]
+  .text              ro code       0x1f4a     0x2  startup_MK66F18.o [1]
+  .text              ro code       0x1f4c    0x3a  DblToS32.o [3]
+  .text              ro code       0x1f86     0x2  startup_MK66F18.o [1]
+  .text              ro code       0x1f88    0x12  math_wrappers64.o [3]
+  .text              ro code       0x1f9a     0x2  startup_MK66F18.o [1]
+  .text              ro code       0x1f9c    0x68  DblToFlt.o [3]
+  .text              ro code       0x2004     0x8  abs.o [2]
+  .text              ro code       0x200c    0x32  ABImemset48.o [4]
+  .text              ro code       0x203e     0x2  startup_MK66F18.o [1]
+  .text              ro code       0x2040    0x4c  exp64.o [3]
+  .text              ro code       0x208c   0x3e8  iar_Exp64.o [3]
+  .text              ro code       0x2474    0x2e  DblCmpLe.o [3]
+  .text              ro code       0x24a2     0x2  startup_MK66F18.o [1]
+  .text              ro code       0x24a4   0x13a  ldexp.o [3]
+  .text              ro code       0x25e0    0x2e  DblCmpGe.o [3]
+  .text              ro code       0x2610   0x17a  DblAdd.o [3]
+  .text              ro code       0x278c    0x22  S32ToDbl.o [3]
+  .text              ro code       0x27b0    0xe2  DblSub.o [3]
+  .text              ro code       0x2894   0x4f4  cmdesk_c_smartcar.o [1]
+  .text              ro code       0x2d88   0x1b8  MOTOR.o [1]
+  .text              ro code       0x2f40   0x430  MT9V032.o [1]
+  .text              ro code       0x3370    0xb0  systick.o [1]
+  .text              ro code       0x3420   0x3f8  NRF24L01.o [1]
+  .text              ro code       0x3818    0x68  mathematics.o [1]
+  .text              ro code       0x3880    0x1a  U32ToDbl.o [3]
+  .text              ro code       0x389a     0x4  exit.o [2]
+  .text              ro code       0x38a0     0xa  cexit.o [4]
+  .text              ro code       0x38ac    0x14  exit.o [5]
+  .text              ro code       0x38c0   0x44c  ST7735.o [1]
+  .text              ro code       0x3d0c   0x2d0  c_smartcar.o [1]
+  .text              ro code       0x3fdc   0x112  nxp_contest.o [1]
+  .text              ro code       0x40f0   0x20c  TD8320MG.o [1]
+  .text              ro code       0x42fc   0x100  information.o [1]
+  .text              ro code       0x43fc    0xee  system_MK66.o [1]
+  .text              ro code       0x44ec    0xe8  interrupt.o [1]
+  .text              ro code       0x45d4    0x58  main.o [1]
+  .text              ro code       0x462c    0x2c  copy_init3.o [4]
+  .text              ro code       0x4658    0x28  startup_MK66F18.o [1]
+  .text              ro code       0x4680    0x28  data_init.o [4]
+  .text              ro code       0x46a8    0x22  fpinit_M.o [3]
+  .iar.init_table    const         0x46cc    0x24  - Linker created -
+  .text              ro code       0x46f0    0x1e  cmain.o [4]
+  .text              ro code       0x470e     0x4  low_level_init.o [2]
+  .text              ro code       0x4712     0xc  cstartup_M.o [4]
+  .text              ro code       0x4720     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4728     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4730     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4738     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4740     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4748     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4750     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4758     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4760     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4768     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4770     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4778     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4780     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4788     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4790     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4798     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x47a0     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x47a8     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x47b0     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x47b8     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x47c0     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x47c8     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x47d0     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x47d8     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x47e0     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x47e8     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x47f0     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x47f8     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4800     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4808     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4810     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4818     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4820     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4828     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4830     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4838     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4840     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4848     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4850     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4858     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4860     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4868     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4870     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4878     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4880     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4888     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4890     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x4898     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x48a0     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x48a8     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x48b0     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x48b8     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x48c0     0x8  startup_MK66F18.o [1]
+  .text              ro code       0x48c8     0x4  startup_MK66F18.o [1]
+  .rodata            const         0x48cc     0x0  zero_init3.o [4]
+  .rodata            const         0x48cc     0x0  copy_init3.o [4]
+  Initializer bytes  const         0x48cc    0x58  <for P3 s0>
+                                 - 0x4924  0x4514
+
+"P3", part 1 of 3:                           0x58
+  P3 s0                       0x2000'0000    0x58  <Init block>
+    .data            inited   0x2000'0000    0x24  MT9V032.o [1]
+    .data            inited   0x2000'0024    0x20  MT9V032.o [1]
+    .data            inited   0x2000'0044     0x8  NRF24L01.o [1]
+    .data            inited   0x2000'004c     0x4  systick.o [1]
+    .data            inited   0x2000'0050     0x4  systick.o [1]
+    .data            inited   0x2000'0054     0x4  systick.o [1]
+                            - 0x2000'0058    0x58
+
+"P3", part 2 of 3:                         0xe584
+  .bss               zero     0x2000'0058  0xe100  c_smartcar.o [1]
+  .bss               zero     0x2000'e158   0x430  c_smartcar.o [1]
+  .bss               zero     0x2000'e588    0x20  NRF24L01.o [1]
+  .bss               zero     0x2000'e5a8    0x20  NRF24L01.o [1]
+  .bss               zero     0x2000'e5c8     0x4  image.o [1]
+  .bss               zero     0x2000'e5cc     0x4  MT9V032.o [1]
+  .bss               zero     0x2000'e5d0     0x4  MT9V032.o [1]
+  .bss               zero     0x2000'e5d4     0x1  cmdesk_c_smartcar.o [1]
+  .bss               zero     0x2000'e5d5     0x1  image.o [1]
+  .bss               zero     0x2000'e5d6     0x1  MT9V032.o [1]
+  .bss               zero     0x2000'e5d7     0x1  MT9V032.o [1]
+  .bss               zero     0x2000'e5d8     0x1  MT9V032.o [1]
+                            - 0x2000'e5d9  0xe581
+
+"P3", part 3 of 3:                         0x2000
+  CSTACK                      0x2000'e5e0  0x2000  <Block>
+    CSTACK           uninit   0x2000'e5e0  0x2000  <Block tail>
+                            - 0x2001'05e0  0x2000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+       0x4924     0xf'ffff  0xf'b6dc
+  0x1000'0000  0x1003'ffff  0x4'0000
+  0x1fff'0000  0x1fff'ffff  0x1'0000
+  0x2000'e5dc  0x2000'e5df       0x4
+  0x2001'05e0  0x2002'ffff  0x1'fa20
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xe581:
+          0x2000'0058  0xe581
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x58:
+               0x48cc    0x58
+    1 destination range, total size 0x58:
+          0x2000'0000    0x58
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  ro data  rw data
+    ------               -------  -------  -------
+command line/config:
+    ----------------------------------------------
+    Total:
+
+C:\Users\asus\Documents\嵌入式\NXP\MK66FX1M0\Randle_H_K66库 - 0125 - 初试赛道特征提取\IAR\Debug\Obj: [1]
+    MOTOR.o                  440
+    MT9V032.o              1 072       68       79
+    NRF24L01.o             1 016        8       72
+    ST7735.o               1 100
+    TD8320MG.o               524
+    c_smartcar.o             720            58 672
+    cmdesk_c_smartcar.o    1 268                 1
+    image.o                5 726                 5
+    information.o            256
+    interrupt.o              232
+    main.o                    88
+    mathematics.o            104
+    nxp_contest.o            274
+    startup_MK66F18.o      1 524
+    system_MK66.o            238
+    systick.o                176       12       12
+    ----------------------------------------------
+    Total:                14 758       88   58 841
+
+dl7M_tln.a: [2]
+    abs.o                      8
+    exit.o                     4
+    low_level_init.o           4
+    ----------------------------------------------
+    Total:                    16
+
+m7M_tls.a: [3]
+    DblAdd.o                 378
+    DblCmpGe.o                46
+    DblCmpLe.o                46
+    DblDiv.o                 582
+    DblMul.o                 418
+    DblSub.o                 226
+    DblToFlt.o               104
+    DblToS32.o                58
+    FltToDbl.o                72
+    S32ToDbl.o                34
+    U32ToDbl.o                26
+    exp64.o                   76
+    fpinit_M.o                34
+    iar_Exp64.o            1 000
+    ldexp.o                  314
+    math_wrappers64.o         18
+    ----------------------------------------------
+    Total:                 3 432
+
+rt7M_tl.a: [4]
+    ABImemclr4.o               6
+    ABImemset.o              102
+    ABImemset48.o             50
+    cexit.o                   10
+    cmain.o                   30
+    copy_init3.o              44
+    cstartup_M.o              12
+    data_init.o               40
+    zero_init3.o              58
+    ----------------------------------------------
+    Total:                   352
+
+shb_l.a: [5]
+    exit.o                    20
+    ----------------------------------------------
+    Total:                    20
+
+    Gaps                      20        2
+    Linker created                     36    8 192
+--------------------------------------------------
+    Grand Total:          18 598      126   67 033
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address    Size  Type      Object
+-----                       -------    ----  ----      ------
+.iar.init_table$$Base        0x46cc           --   Gb  - Linker created -
+.iar.init_table$$Limit       0x46f0           --   Gb  - Linker created -
+?main                        0x46f1          Code  Gb  cmain.o [4]
+CAM_DMA_Configuration        0x30b3    0x9e  Code  Gb  MT9V032.o [1]
+CAM_Finished            0x2000'e5d8     0x1  Data  Gb  MT9V032.o [1]
+CAM_IRQ_Configuration        0x3151    0x34  Code  Gb  MT9V032.o [1]
+CAM_PORT_Configuration       0x2fa3    0x76  Code  Gb  MT9V032.o [1]
+CAM_RX                  0x2000'e5cc     0x4  Data  Gb  MT9V032.o [1]
+CAM_RX_Flag             0x2000'e5d7     0x1  Data  Gb  MT9V032.o [1]
+CAM_TX                  0x2000'e5d0     0x4  Data  Gb  MT9V032.o [1]
+CAM_UART_Configuration       0x3019    0x9a  Code  Gb  MT9V032.o [1]
+CAM_UART_Recv                0x31a1    0x10  Code  Gb  MT9V032.o [1]
+CAM_UART_Send                0x3185    0x1c  Code  Gb  MT9V032.o [1]
+CAR_ParaApply                0x3e71   0x16c  Code  Gb  c_smartcar.o [1]
+CAR_Parameter_Reset          0x3d0d   0x14e  Code  Gb  c_smartcar.o [1]
+CMD_Check                    0x2895   0x4f4  Code  Gb  cmdesk_c_smartcar.o [1]
+CSTACK$$Base            0x2000'e5e0           --   Gb  - Linker created -
+CSTACK$$Limit           0x2001'05e0           --   Gb  - Linker created -
+Camera_Init                  0x2f7f    0x24  Code  Gb  MT9V032.o [1]
+Canny_NonMaxSupression       0x19dd    0x92  Code  Lc  image.o [1]
+Car_Image               0x2000'0058  0xe100  Data  Gb  c_smartcar.o [1]
+Car_Parameter           0x2000'e158   0x430  Data  Gb  c_smartcar.o [1]
+DMA0_IRQHandler              0x4565    0x12  Code  Gb  interrupt.o [1]
+Disable_Wdog                 0x43fd    0x18  Code  Gb  system_MK66.o [1]
+GET_CFG                 0x2000'0024    0x20  Data  Gb  MT9V032.o [1]
+GET_Config                   0x31b1    0x60  Code  Gb  MT9V032.o [1]
+GET_RoadFeature              0x4009    0x44  Code  Gb  nxp_contest.o [1]
+HAS_COMMAND             0x2000'e5d4     0x1  Data  Gb  cmdesk_c_smartcar.o [1]
+INIT_RoadData                0x3fdd    0x2c  Code  Gb  nxp_contest.o [1]
+Image_AvgFilter               0x60d   0x27a  Code  Gb  image.o [1]
+Image_Bin                     0x583    0x84  Code  Gb  image.o [1]
+Image_CannyEdge              0x1349   0x672  Code  Gb  image.o [1]
+Image_GrayStat                0x465   0x11e  Code  Gb  image.o [1]
+Image_GusBlur                 0xe99   0x4aa  Code  Gb  image.o [1]
+Image_GusBlur::local_delta
+                        0x2000'e5c8     0x4  Data  Lc  image.o [1]
+Image_GusBlur::local_order
+                        0x2000'e5d5     0x1  Data  Lc  image.o [1]
+Image_MidFilter               0x887   0x610  Code  Gb  image.o [1]
+Image_SnapShot                0x411    0x52  Code  Gb  image.o [1]
+M2L_scan                     0x409f    0x50  Code  Lc  nxp_contest.o [1]
+M2R_scan                     0x404d    0x52  Code  Lc  nxp_contest.o [1]
+MOTOR_Direction              0x2f0d    0x34  Code  Gb  MOTOR.o [1]
+MOTOR_Duty                   0x2eb3    0x1a  Code  Gb  MOTOR.o [1]
+MOTOR_FTM_Configuration
+                             0x2e1d    0x96  Code  Gb  MOTOR.o [1]
+MOTOR_Init                   0x2d89    0x22  Code  Gb  MOTOR.o [1]
+MOTOR_Port_Configuration
+                             0x2dab    0x72  Code  Gb  MOTOR.o [1]
+MT9V032_CFG             0x2000'0000    0x24  Data  Gb  MT9V032.o [1]
+NMI_Handler                  0x44e9     0x2  Code  Gb  system_MK66.o [1]
+NRF_Init                     0x3473     0xc  Code  Gb  NRF24L01.o [1]
+NRF_PORT_Init                0x347f    0xa8  Code  Gb  NRF24L01.o [1]
+NRF_RF_Addr             0x2000'0044     0x8  Data  Gb  NRF24L01.o [1]
+NRF_RX_Buff             0x2000'e588    0x20  Data  Gb  NRF24L01.o [1]
+NRF_ReadReg                  0x3553    0x24  Code  Gb  NRF24L01.o [1]
+NRF_ReadRegBurst             0x35df    0x4c  Code  Gb  NRF24L01.o [1]
+NRF_Recv                     0x3701    0x38  Code  Gb  NRF24L01.o [1]
+NRF_RecvMode                 0x367f    0x82  Code  Gb  NRF24L01.o [1]
+NRF_Send                     0x3739    0x8c  Code  Gb  NRF24L01.o [1]
+NRF_TX_Buff             0x2000'e5a8    0x20  Data  Gb  NRF24L01.o [1]
+NRF_WriteByte                0x362b    0x54  Code  Gb  NRF24L01.o [1]
+NRF_WriteCmd                 0x3577    0x1e  Code  Gb  NRF24L01.o [1]
+NRF_WriteReg                 0x3527    0x2c  Code  Gb  NRF24L01.o [1]
+NRF_WriteRegBurst            0x3595    0x4a  Code  Gb  NRF24L01.o [1]
+NVIC_DisableIRQ              0x3437    0x16  Code  Lc  NRF24L01.o [1]
+NVIC_EnableIRQ               0x2f41    0x16  Code  Lc  MT9V032.o [1]
+NVIC_EnableIRQ               0x3421    0x16  Code  Lc  NRF24L01.o [1]
+NVIC_SetPriority             0x2f57    0x28  Code  Lc  MT9V032.o [1]
+NVIC_SetPriority             0x344d    0x26  Code  Lc  NRF24L01.o [1]
+PORTB_IRQHandler             0x4577    0x18  Code  Gb  interrupt.o [1]
+PORTC_IRQHandler             0x452b    0x3a  Code  Gb  interrupt.o [1]
+PRJ_Init                     0x45f7    0x2a  Code  Lc  main.o [1]
+RECV_Num                0x2000'e5d6     0x1  Data  Gb  MT9V032.o [1]
+RecordData                   0x326f    0x36  Code  Lc  MT9V032.o [1]
+Region$$Table$$Base          0x46cc           --   Gb  - Linker created -
+Region$$Table$$Limit         0x46f0           --   Gb  - Linker created -
+SERVO_Angle                  0x41d5    0x80  Code  Gb  TD8320MG.o [1]
+SERVO_Duty                   0x4255    0x72  Code  Gb  TD8320MG.o [1]
+SET_Config                   0x3211    0x5e  Code  Gb  MT9V032.o [1]
+SHOW_Image                   0x42fd    0x50  Code  Gb  information.o [1]
+SHOW_RoadInfo                0x434d    0xaa  Code  Gb  information.o [1]
+SYSTEM_CLK                   0x442b    0x7c  Code  Gb  system_MK66.o [1]
+Start                        0x44a7    0x16  Code  Gb  system_MK66.o [1]
+TD8320MG_Duty                0x41c1    0x14  Code  Lc  TD8320MG.o [1]
+TD8320MG_FTM_Configuration
+                             0x412b    0x96  Code  Gb  TD8320MG.o [1]
+TD8320MG_Init                0x40f1    0x12  Code  Gb  TD8320MG.o [1]
+TD8320MG_Port_Configuration
+                             0x4103    0x28  Code  Gb  TD8320MG.o [1]
+TFT_Delay                    0x39df     0xa  Code  Lc  ST7735.o [1]
+TFT_Fill                     0x3a3f    0x36  Code  Gb  ST7735.o [1]
+TFT_Init                     0x3a75   0x24e  Code  Gb  ST7735.o [1]
+TFT_MOSI                     0x394d    0x40  Code  Lc  ST7735.o [1]
+TFT_PORT_Configuration       0x38c1    0x52  Code  Lc  ST7735.o [1]
+TFT_SPI_Configuration        0x3913    0x3a  Code  Lc  ST7735.o [1]
+TFT_SetRegion                0x39e9    0x56  Code  Gb  ST7735.o [1]
+TFT_WriteCmd                 0x39c9    0x16  Code  Lc  ST7735.o [1]
+TFT_WriteDat                 0x398d    0x16  Code  Lc  ST7735.o [1]
+TFT_WriteDat16Bits           0x39a3    0x26  Code  Gb  ST7735.o [1]
+UART3_RX_TX_IRQHandler       0x44ed    0x3e  Code  Gb  interrupt.o [1]
+__Vectors                       0x0           --   Gb  startup_MK66F18.o [1]
+__Vectors_End                 0x400          Data  Gb  startup_MK66F18.o [1]
+__Vectors_Size {Abs}          0x400           --   Gb  startup_MK66F18.o [1]
+__aeabi_cdcmple              0x2475          Code  Gb  DblCmpLe.o [3]
+__aeabi_cdrcmple             0x25e1          Code  Gb  DblCmpGe.o [3]
+__aeabi_d2f                  0x1f9d          Code  Gb  DblToFlt.o [3]
+__aeabi_d2iz                 0x1f4d          Code  Gb  DblToS32.o [3]
+__aeabi_dadd                 0x2611          Code  Gb  DblAdd.o [3]
+__aeabi_ddiv                 0x1d05          Code  Gb  DblDiv.o [3]
+__aeabi_dmul                 0x1b61          Code  Gb  DblMul.o [3]
+__aeabi_dsub                 0x27b1          Code  Gb  DblSub.o [3]
+__aeabi_f2d                  0x1b19          Code  Gb  FltToDbl.o [3]
+__aeabi_i2d                  0x278d          Code  Gb  S32ToDbl.o [3]
+__aeabi_memclr4              0x1b11          Code  Gb  ABImemclr4.o [4]
+__aeabi_memset               0x1aa9          Code  Gb  ABImemset.o [4]
+__aeabi_ui2d                 0x3881          Code  Gb  U32ToDbl.o [3]
+__cmain                      0x46f1          Code  Gb  cmain.o [4]
+__exit                       0x38ad    0x14  Code  Gb  exit.o [5]
+__iar_Exp64                  0x208d   0x388  Code  Gb  iar_Exp64.o [3]
+__iar_Memset                 0x1aa9          Code  Gb  ABImemset.o [4]
+__iar_Memset4_word           0x200d          Code  Gb  ABImemset48.o [4]
+__iar_Memset8_word           0x200d          Code  Gb  ABImemset48.o [4]
+__iar_Memset_word            0x1ab1          Code  Gb  ABImemset.o [4]
+__iar_copy_init3             0x462d    0x2c  Code  Gb  copy_init3.o [4]
+__iar_dadd                   0x27c1          Code  Gb  DblSub.o [3]
+__iar_data_init3             0x4681    0x28  Code  Gb  data_init.o [4]
+__iar_dsub                   0x2621          Code  Gb  DblAdd.o [3]
+__iar_dsubStart              0x2633          Code  Gb  DblAdd.o [3]
+__iar_exp64                  0x2041    0x4c  Code  Gb  exp64.o [3]
+__iar_exp_medium             0x2041    0x4c  Code  Gb  exp64.o [3]
+__iar_exp_medium64           0x2041    0x4c  Code  Gb  exp64.o [3]
+__iar_exp_mediuml            0x2041    0x4c  Code  Gb  exp64.o [3]
+__iar_init_vfp               0x46a9          Code  Gb  fpinit_M.o [3]
+__iar_ldexp64                0x24a5          Code  Gb  ldexp.o [3]
+__iar_program_start          0x4713          Code  Gb  cstartup_M.o [4]
+__iar_scalbln64              0x24a5          Code  Gb  ldexp.o [3]
+__iar_scalbn64               0x24a5          Code  Gb  ldexp.o [3]
+__iar_vfp_exp                0x1f8f     0xc  Code  Gb  math_wrappers64.o [3]
+__iar_zero_init3             0x1a6f    0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init             0x470f     0x4  Code  Gb  low_level_init.o [2]
+__vector_table                  0x0          Data  Gb  startup_MK66F18.o [1]
+__vector_table_0x1c            0x1c          Data  Gb  startup_MK66F18.o [1]
+_call_main                   0x46fd          Code  Gb  cmain.o [4]
+_exit                        0x38a1          Code  Gb  cexit.o [4]
+_main                        0x470b          Code  Gb  cmain.o [4]
+abs                          0x2005     0x8  Code  Gb  abs.o [2]
+bus_clk_mhz             0x2000'0054     0x4  Data  Gb  systick.o [1]
+core_clk_mhz            0x2000'0050     0x4  Data  Gb  systick.o [1]
+div_set                      0x4415    0x16  Code  Gb  system_MK66.o [1]
+exit                         0x389b     0x4  Code  Gb  exit.o [2]
+exp                          0x2041    0x4c  Code  Gb  exp64.o [3]
+expl                         0x2041    0x4c  Code  Gb  exp64.o [3]
+get_clk                      0x3371    0x4c  Code  Gb  systick.o [1]
+ldexp                        0x24a5          Code  Gb  ldexp.o [3]
+ldexpl                       0x24a5          Code  Gb  ldexp.o [3]
+main                         0x45d5    0x22  Code  Gb  main.o [1]
+map_linear                   0x3819    0x68  Code  Gb  mathematics.o [1]
+mcgout_clk_mhz          0x2000'004c     0x4  Data  Gb  systick.o [1]
+scalbln                      0x24a5          Code  Gb  ldexp.o [3]
+scalblnl                     0x24a5          Code  Gb  ldexp.o [3]
+scalbn                       0x24a5          Code  Gb  ldexp.o [3]
+scalbnl                      0x24a5          Code  Gb  ldexp.o [3]
+systick_delay                0x33bd    0x20  Code  Gb  systick.o [1]
+systick_delay_ms             0x33dd    0x1e  Code  Gb  systick.o [1]
+
+
+[1] = C:\Users\asus\Documents\嵌入式\NXP\MK66FX1M0\Randle_H_K66库 - 0125 - 初试赛道特征提取\IAR\Debug\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  18 598 bytes of readonly  code memory
+     126 bytes of readonly  data memory
+  67 033 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
