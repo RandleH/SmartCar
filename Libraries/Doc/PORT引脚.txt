@@ -1,0 +1,13 @@
+
+
+SERVO   D7      FTM3    CH0
+MOTOR   C[1:4]  FTM0    CH[0:3]
+CAMERA  C[8:15] DATAPORT
+        C6      VSYC
+        C18     PSN
+        C16     SCL
+        C17     SDA
+        
+
+
+
