@@ -55,7 +55,12 @@ void CAR_Parameter_Reset(CarPara_Typedef* Car_Parameter_P)
 //============= Default Configuration for Image =============//
   Car_Parameter_P->IMAGE.source_img            = (uint8*)Car_Image.CAM[0];
   Car_Parameter_P->IMAGE.output_img            = Car_Image.BUF1[0];
-  Car_Parameter_P->IMAGE.filter                = canny;
+  
+  Car_Parameter_P->IMAGE.gus_cfg.cmd           = true;
+  Car_Parameter_P->IMAGE.ger_cfg.cmd           = false;
+  Car_Parameter_P->IMAGE.canny_cfg.cmd         = false;
+  Car_Parameter_P->IMAGE.bin_cfg.cmd           = true;
+
   Car_Parameter_P->IMAGE.row_start             = 0;
   Car_Parameter_P->IMAGE.row_end               = ROW-1;
   Car_Parameter_P->IMAGE.col_start             = 0;
@@ -68,27 +73,20 @@ void CAR_Parameter_Reset(CarPara_Typedef* Car_Parameter_P)
   Car_Parameter_P->IMAGE.canny_cfg.gus_delta   = 1.4;
   Car_Parameter_P->IMAGE.canny_cfg.gus_order   = 3;
   Car_Parameter_P->IMAGE.canny_cfg.gus_cmd     = Enable;
-  Car_Parameter_P->IMAGE.canny_cfg.source_img  = Car_Parameter_P->IMAGE.source_img;
-  Car_Parameter_P->IMAGE.canny_cfg.output_img  = Car_Parameter_P->IMAGE.output_img;
 #endif  
 #ifdef _BINARY_H
   //Default Config for Bin:
   Car_Parameter_P->IMAGE.bin_cfg.threshold     = 80;
   Car_Parameter_P->IMAGE.bin_cfg.lumin         = 0.1;
-  Car_Parameter_P->IMAGE.bin_cfg.output_img    = Car_Parameter_P->IMAGE.output_img;
 #endif
 #ifdef _GUSSIAN_H  
   //Default Config for gusblur:
   Car_Parameter_P->IMAGE.gus_cfg.order         = 3;
   Car_Parameter_P->IMAGE.gus_cfg.delta         = 1.4;
-  Car_Parameter_P->IMAGE.gus_cfg.source_img    = Car_Parameter_P->IMAGE.source_img;
-  Car_Parameter_P->IMAGE.gus_cfg.output_img    = Car_Parameter_P->IMAGE.output_img;
 #endif
 #ifdef _FILTER_H
   //Default Config for General Filters
   Car_Parameter_P->IMAGE.ger_cfg.order         = 3;
-  Car_Parameter_P->IMAGE.ger_cfg.source_img    = Car_Parameter_P->IMAGE.source_img;
-  Car_Parameter_P->IMAGE.ger_cfg.output_img    = Car_Parameter_P->IMAGE.output_img;
 #endif
 #ifdef _STAT_H
   Car_Parameter_P->IMAGE.statistic.source_img    = Car_Parameter_P->IMAGE.source_img;
@@ -96,6 +94,7 @@ void CAR_Parameter_Reset(CarPara_Typedef* Car_Parameter_P)
   Car_Parameter_P->IMAGE.statistic.Histogram_backcolor = BLACK;
   Car_Parameter_P->IMAGE.statistic.Histogram_textcolor = WHITE;
 #endif
+
 #endif
   
 #ifdef _CONTEST_H
@@ -140,7 +139,18 @@ void CAR_ParaApply(CarPara_Typedef* Car_Parameter_P)
     SERVO_Duty(Car_Parameter_P->SERVO.duty);
   else
     SERVO_FREEZE;
-  
+
+  if(Image_IsValid(&Car_Parameter_P->IMAGE) == true)
+  {
+    if(Car_Parameter_P->IMAGE.filter1 != NULL)
+      (*Car_Parameter_P->IMAGE.filter1)(Car_Parameter_P->IMAGE.row_start,Car_Parameter_P->IMAGE.col_start,
+                 Car_Parameter_P->IMAGE.row_end  ,Car_Parameter_P->IMAGE.col_end,Car_Parameter_P->IMAGE.filter1_cfg);
+    if(Car_Parameter_P->IMAGE.filter2 != NULL)
+      (*Car_Parameter_P->IMAGE.filter2)(Car_Parameter_P->IMAGE.row_start,Car_Parameter_P->IMAGE.col_start,
+                 Car_Parameter_P->IMAGE.row_end  ,Car_Parameter_P->IMAGE.col_end,Car_Parameter_P->IMAGE.filter2_cfg);
+  }
+  else while(1);
+  /*
   switch(Car_Parameter_P->IMAGE.filter)
   {
   case gus:
@@ -175,7 +185,7 @@ void CAR_ParaApply(CarPara_Typedef* Car_Parameter_P)
                    Car_Parameter_P->IMAGE.row_end  ,Car_Parameter_P->IMAGE.col_end,
                    &Car_Parameter_P->IMAGE.statistic);
     break;
-  }
+  }*/
   
 #ifdef _CONTEST_H
   GET_RoadFeature(&Car_Parameter_P->ROAD,Car_Parameter_P->IMAGE.bin_cfg.output_img);
