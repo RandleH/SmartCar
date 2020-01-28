@@ -6,7 +6,7 @@ void SHOW_Image(void)
   uint8* image = Car_Parameter.IMAGE.output_img;
   int i,j;
   uint16 color,temp;
-  for(i=(TFT_X_MAX-ROW)/2+4;i<ROW;i++)
+  for(i=0;i<ROW;i++)
   {
     TFT_SetRegion(i,0,i,TFT_Y_MAX-1);
     for(j=0;j<TFT_Y_MAX;j++)
@@ -18,6 +18,12 @@ void SHOW_Image(void)
       TFT_WriteDat16Bits(color);
       image++;
     }
+  }
+  for(;i<TFT_X_MAX;i++)
+  {
+    TFT_SetRegion(i,0,i,TFT_Y_MAX-1);
+    for(j=0;j<TFT_Y_MAX;j++)
+      TFT_WriteDat16Bits(RED);
   }
 }
 
@@ -43,15 +49,13 @@ void SHOW_RoadInfo(void)
   const uint8 width = 4;
   for(i=Car_Parameter.ROAD.row_end;i>Car_Parameter.ROAD.row_start;i--)
   {
-    if(i+8>=ROW) continue;
-    
-    TFT_SetRegion(i+8,Car_Parameter.ROAD.left_edge[i],
-                  i+8,Car_Parameter.ROAD.left_edge[i]+width);
+    TFT_SetRegion(i,Car_Parameter.ROAD.left_edge[i],
+                  i,Car_Parameter.ROAD.left_edge[i]+width);
     for(uint8 j=0;j<width;j++)
       TFT_WriteDat16Bits(GREEN);
     
-    TFT_SetRegion(i+8,Car_Parameter.ROAD.right_edge[i]-width,
-                  i+8,Car_Parameter.ROAD.right_edge[i]);
+    TFT_SetRegion(i,Car_Parameter.ROAD.right_edge[i]-width,
+                  i,Car_Parameter.ROAD.right_edge[i]);
     for(uint8 j=0;j<width;j++)
       TFT_WriteDat16Bits(BLUE);
   }
