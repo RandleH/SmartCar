@@ -103,6 +103,10 @@ typedef struct          //Configuration for image process
   GrayStatTypedef      statistic;
   uint8*               source_img;
   uint8*               output_img;
+  void* filter1_cfg;
+  void* filter2_cfg;
+  void (*filter1)(uint8,uint8,uint8,uint8,void* filter1_cfg);
+  void (*filter2)(uint8,uint8,uint8,uint8,void* filter2_cfg);
 
   uint8 row_start;
   uint8 row_end;
@@ -146,6 +150,7 @@ typedef struct          //Address of Image Data Buffer
 
 void CAR_Parameter_Reset(CarPara_Typedef* Car_Parameter_P);
 void CAR_ParaApply(CarPara_Typedef* Car_Parameter_P);
+bool Image_IsValid(ImgProcess_Typedef* cfg);
 extern CarPara_Typedef         Car_Parameter;
 extern ImageBuf_Typedef        Car_Image;
 #endif
