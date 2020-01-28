@@ -450,5 +450,73 @@ static inline void Canny_NonMaxSupression(uint8* canny_img,uint8 angle)
   }
 }
 
+bool Image_IsValid(ImgProcess_Typedef* cfg)
+{
+  bool IsValid = true;
+  cfg->source_img = (uint8*)Car_Image.CAM[0];
+  if(cfg->gus_cfg.cmd == true && cfg->ger_cfg.cmd == false)
+  {
+    cfg->gus_cfg.source_img = cfg->source_img;
+    cfg->filter1     = (void(*)(uint8,uint8,uint8,uint8,void*))Image_GusBlur;
+    cfg->filter1_cfg = &cfg->gus_cfg;
+    if(cfg->bin_cfg.cmd == true)
+    {
+      cfg->bin_cfg.source_img = cfg->gus_cfg.output_img = Car_Image.BUF2[0];
+      cfg->output_img         = cfg->bin_cfg.output_img = Car_Image.BUF1[0];
+      cfg->filter2     = (void(*)(uint8,uint8,uint8,uint8,void*))Image_Bin;
+      cfg->filter2_cfg = &cfg->bin_cfg;
+    }
+    else
+    {
+      cfg->output_img = cfg->gus_cfg.output_img = Car_Image.BUF1[0];
+      cfg->filter2     = NULL;
+      cfg->filter2_cfg = NULL;
+    }
+  }
+  else if(cfg->gus_cfg.cmd == false && cfg-> ger_cfg.cmd == true)
+  {
+    cfg->ger_cfg.source_img = cfg->source_img;
+    cfg->filter1     = (void(*)(uint8,uint8,uint8,uint8,void*))Image_AvgFilter;
+    cfg->filter1_cfg = &cfg->ger_cfg;
+    if(cfg->bin_cfg.cmd == true)
+    {
+      cfg->bin_cfg.source_img = cfg->ger_cfg.output_img = Car_Image.BUF2[0];
+      cfg->output_img         = cfg->bin_cfg.output_img = Car_Image.BUF1[0];
+      cfg->filter2     = (void(*)(uint8,uint8,uint8,uint8,void*))Image_Bin;
+      cfg->filter2_cfg = &cfg->bin_cfg;
+    }
+  }
+  else if(cfg->gus_cfg.cmd == false && cfg->ger_cfg.cmd == false)
+  {
+    cfg->filter1     = NULL;
+    cfg->filter1_cfg = NULL;
+    if(cfg->canny_cfg.cmd == true && cfg->bin_cfg.cmd == false)
+    {
+      cfg->canny_cfg.source_img = cfg->source_img;
+      cfg->canny_cfg.output_img = cfg->output_img = Car_Image.BUF1[0];
+      cfg->filter2     = (void(*)(uint8,uint8,uint8,uint8,void*))Image_CannyEdge;
+      cfg->filter2_cfg = &cfg->canny_cfg;
+    }
+    else if(cfg->canny_cfg.cmd == false && cfg->bin_cfg.cmd == true)
+    {
+      cfg->bin_cfg.source_img = cfg->source_img;
+      cfg->bin_cfg.output_img = cfg->output_img = Car_Image.BUF1[0];
+      cfg->filter2     = (void(*)(uint8,uint8,uint8,uint8,void*))Image_Bin;
+      cfg->filter2_cfg = &cfg->bin_cfg;
+    }
+    else if(cfg->canny_cfg.cmd == false && cfg->bin_cfg.cmd == false)
+    {
+      cfg->output_img = cfg->source_img;
+      cfg->filter2     = NULL;
+      cfg->filter2_cfg = NULL;
+    }
+    else
+      IsValid = false;
+  }
+  else 
+    IsValid = false;
+
+  return IsValid;
+}
 
 
