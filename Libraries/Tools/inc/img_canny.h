@@ -31,6 +31,7 @@ typedef struct
   cannykernal_type kernal;
   uint8* source_img;
   uint8* output_img;
+  bool cmd;
 }CannyConfigTypedef;
 
  
