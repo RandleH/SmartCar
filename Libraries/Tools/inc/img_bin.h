@@ -19,6 +19,7 @@ typedef struct
   float lumin;
   uint8* source_img;
   uint8* output_img;
+  bool cmd;
 }BinConfigTypedef;
 
 
