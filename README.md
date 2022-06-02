@@ -10,4 +10,4 @@ The NXP SmartCar Contest is a creative science and technology competition that t
 
 The target of the C-Smart-Car Project is NXP MK66FX ARM Cortex-M MCU and MT9V032 CMOS Digital Image Sensor.The board has built-in JTAG for programming and emulation, H-Bridge Motor port breaking out PWM, UARTs, SCCB port for camera, SPI port for TFT screen and reserved I/O headers.
 
-Copyright (c) 2019 Randle_H. All rights reserved.
+Copyright (c) 2018 Randle.Helmslay. All rights reserved.
